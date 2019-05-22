@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lyt_buttons">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_order_no"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/prompt_order_no"
+
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/twenty_sp" />
+
+            <EditText
+                android:id="@+id/et_order_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/prompt_due_date"
+
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/twenty_sp" />
+
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/prompt_buyer_name"
+
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/twenty_sp" />
+
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/prompt_address"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/twenty_sp" />
+
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/prompt_phone"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/twenty_sp" />
+
+            <EditText
+                android:id="@+id/et_total"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/prompt_total"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/twenty_sp" />
+
+            <EditText
+                android:id="@+id/et_gps"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/prompt_gps"
+                android:maxLines="1"
+                android:singleLine="true"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/twenty_sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/lyt_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/twenty_dp"
+        android:layout_marginTop="@dimen/thirty_Two_dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/Base.TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_hash"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/twenty_sp" />
+
+        <Button
+            android:id="@+id/btn_edit"
+            style="@style/Base.TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_white_enabled"
+            android:text="@string/action_login"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/twenty_sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

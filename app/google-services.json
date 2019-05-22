@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "387559307690",
+    "firebase_url": "https://navaratan-5ca2d.firebaseio.com",
+    "project_id": "navaratan-5ca2d",
+    "storage_bucket": "navaratan-5ca2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387559307690:android:a6964ceaba6a88d4",
+        "android_client_info": {
+          "package_name": "com.nav.ordermanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387559307690-go65jj2e5hfjc1epqk6ddmii07ogl0ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfXJJlayQ4cQk2lLGqgoSAMlY3-FmPpFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387559307690-go65jj2e5hfjc1epqk6ddmii07ogl0ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

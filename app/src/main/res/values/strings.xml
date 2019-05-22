@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Order Management System</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <!--Strings for MainActivity-->
+
+    <string name="action_ok">Ok </string>
+    <string name="prompt_home_email">Email</string>
+    <string name="prompt_home_phone">Phone</string>
+    <string name="prompt_home_city">city</string>
+
+    <!--Scanner Activity-->
+
+    <string name="screen_header">Scan QR code displayed on account</string>
+    <string name="cancel">Cancel</string>
+    <!-- Strings related to login -->
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="header_login">Please login here</string>
+    <string name="prompt_error">Invalid User Name &amp; Password</string>
+    <string name="action_forgot_password">Forgot Password?</string>
+    <string name="prompt_header_settings">Insert Service Address Below</string>
+    <string name="action_test">Test</string>
+    <string name="action_Save">Save</string>
+    <string name="prompt_error_url">Invalid Address</string>
+    <string name="button_add">Add</string>
+    <string name="button_edit">Edit</string>
+
+    <string name="button_cancel">Cancel</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+
+    <string name="prompt_order_no">Order Number</string>
+    <string name="prompt_due_date">Order Due Date</string>
+    <string name="prompt_buyer_name">Customer buyer name</string>
+    <string name="prompt_address">Customer Address</string>
+    <string name="prompt_phone">Customer Phone</string>
+    <string name="prompt_total">OrderTotal</string>
+    <string name="prompt_gps">gps location</string>
+    <string name="action_remember">Remember me</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_login">Login</string>
+
+</resources>
